@@ -1,1 +1,203 @@
+body{
+    background-color: lightgray;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-family: 'Roboto Slab', sans-serif;
+    margin: 0;
+}
 
+.btn:focus, .button:focus{
+    outline: 0;
+}
+
+.btn, .button, a{
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#main-header{
+    min-height: 40px;
+    background-color: white;
+    color: rgb(85, 170, 226);
+    padding: 20px;
+    width: 1308px;
+    border-bottom: 3px black solid;
+}
+
+#main-header h1{
+    float: left;
+    padding: 5px;
+    margin: 0;
+}
+#navbar ul{
+    list-style: none;
+    margin: 10px 20px;
+    float: right;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#current{
+    background-color: rgb(85, 170, 226);
+    padding: 10px 10px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.showcase{
+    background-image: url('../images/background.jpg');
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.show{
+    background-image: url('../images/about.jpg');
+    min-height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.showcase h1{
+    margin: 0 25px; 
+    margin-top: 75px; 
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+    width: 50%;
+    font-size: 6em;
+    color: white;
+    line-height: 1.6em;
+}
+
+.show h1{
+    margin: 0 70px; 
+    margin-top: 50px; 
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+    font-size: 5em;
+    color: white;
+    line-height: 1.6em;
+}
+
+.newsletter{
+    background-color: rgb(85, 170, 226);
+    width: 100%;
+}
+
+.newsletter h1{
+    padding: 20px;
+    padding-left: 15%;
+    display: inline;
+    float: left;
+}
+
+.btn{
+    float: right;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 0;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(85, 170, 226);
+    color: white;
+}
+
+.button{
+    float: right;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 0;
+    font-weight: bold;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+    height: 200px;
+}
+
+#list{
+    margin-top: 10px;
+}
+
+#main-col{
+    float: left;
+    width: 65%;
+    box-sizing: border-box;
+}
+
+#main-col h1{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.car-list{
+    list-style: none;
+}
+
+.car-list img{
+    height: 200px;
+    float: left;
+    width: 45%;   
+    box-sizing: border-box; 
+    margin: 5px;
+}
+
+.car-list #side{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: rgb(114, 114, 114);
+    color: white;
+    font-size: 15px;
+}
+
+#footer{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    font-size: 12px;
+}
